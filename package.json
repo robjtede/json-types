@@ -1,0 +1,34 @@
+{
+  "name": "json-types",
+  "version": "0.1.0",
+  "description": "JSON TypeScript Definitions",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./*.js && rimraf ./*.d.ts",
+    "build": "npm run clean && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robjtede/json-types.git"
+  },
+  "keywords": [
+    "json",
+    "typescript",
+    "types",
+    "tsd",
+    "typings"
+  ],
+  "author": "robjtede",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robjtede/json-types/issues"
+  },
+  "homepage": "https://github.com/robjtede/json-types#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "tslib": "^1.7.1",
+    "typescript": "^2.4.2"
+  }
+}
