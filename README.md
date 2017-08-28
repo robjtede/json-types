@@ -6,7 +6,7 @@
 
 ## Installation
 
-```typescript
+```shell
 npm i json-types
 ```
 
