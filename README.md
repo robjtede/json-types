@@ -16,6 +16,7 @@ npm i json-types
 import {
   Primitive,
   JSONEntry,
+  JSONArray,
   JSONMap,
   JSONData
 } from '../json-types'
@@ -27,6 +28,7 @@ import {
 import {
   Primitive,
   JSONEntry,
+  JSONArray,
   JSONMap,
   JSONData
 } from '../json-types'
@@ -42,6 +44,7 @@ interface APIResponse extends JSONMap {
   }
   name: string,
   has_website: false
+  files: JSONArray
   metadata: JSONEntry
 }
 
