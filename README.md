@@ -1,3 +1,22 @@
+## Deprecation Notice
+
+As of TypeScript 3.7, it's no longer necessary to use the workaround in this
+package for defining valid JSON structures.
+
+This small snippet is all that is required now:
+
+```typescript
+type Json =
+  | string
+  | number
+  | boolean
+  | null
+  | Record<string, Json>
+  | Json[];
+```
+
+---
+
 # json-types
 
 > JSON TypeScript Definitions
