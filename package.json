@@ -1,6 +1,6 @@
 {
   "name": "json-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON TypeScript Definitions",
   "main": "index.js",
   "scripts": {
